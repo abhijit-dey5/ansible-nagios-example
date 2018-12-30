@@ -3,11 +3,11 @@
 # this is your main nagios server and
 # where ansible will deploy it.
 [nagios]
-host-01
+ip-172-31-21-105.us-east-2.compute.internal
 
 # use this for generic Linux servers
 [servers]
-
+ip-172-31-17-207.us-east-2.compute.internal
 # inherits servers checks, includes http
 [webservers]
 
